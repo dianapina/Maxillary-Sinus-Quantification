@@ -1,5 +1,10 @@
-
-%Computed Tomography-Based Volumetric Tool for Standardized Measurement of the Maxillary Sinus 
+%Computed Tomography-Based Volumetric Tool for Standardized Measurement of the Maxillary Sinus
+ 
+%Description of the automated tool, which was developed for quantifying the total and air-free volume of the maxillary sinus based on computed tomography images. The quantification tool seeks to standardize maxillary sinus volume measurements, thus allowing better comparisons and determinations of factors that influence maxillary sinus size. The automated tool utilized image processing techniques.
+ 
+%
+ 
+%Please contact PhD. Diana Rodrigues de Pina (drpina@fmb.unesp.br) for additional information regarding this protocol.
 
 % Read images
 clear all
@@ -952,7 +957,7 @@ grid on
 
 results=[vol_tot_mm3_d; vol_tot_mm3_e; vol_muco_mm3_d;vol_muco_mm3_d];
 
-disp(['Left total volume (mm³): ', num2str(vol_tot_mm3_e)])
-disp(['Right total volume (mm³): ', num2str(vol_tot_mm3_d)])
-disp(['Left involvement volume(mm³): ', num2str(vol_muco_mm3_e)])
-disp(['Right involvement volume(mm³): ', num2str(vol_muco_mm3_d)])
+disp(['Left total volume (mmÂ³): ', num2str(vol_tot_mm3_e)])
+disp(['Right total volume (mmÂ³): ', num2str(vol_tot_mm3_d)])
+disp(['Left involvement volume(mmÂ³): ', num2str(vol_muco_mm3_e)])
+disp(['Right involvement volume(mmÂ³): ', num2str(vol_muco_mm3_d)])
